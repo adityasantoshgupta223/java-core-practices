@@ -30,6 +30,7 @@ public class HashMapDemo {
     population.put("USA", 0.3);
     System.out.println(population);
 
+    // Clearing the Map  
     population.clear();
 
     System.out.println(population);
