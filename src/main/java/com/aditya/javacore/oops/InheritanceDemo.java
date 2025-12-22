@@ -43,7 +43,7 @@ class Employee extends Person{
 
     @Override
     public String toString() {
-        return super.toString() + "\n Employee [ deprt = " + deprt + ", empyId = " + empyId + "]";
+        return super.toString() + "\nEmployee [ deprt = " + deprt + ", empyId = " + empyId + "]";
     }
 }
 class Manager extends Employee{
@@ -60,13 +60,13 @@ class Manager extends Employee{
 
     @Override
     public String toString() {  
-        return  super.toString() + "\n Manager [ projName = " + projName + "]";
+        return  super.toString() + "\nManager [ projName = " + projName + "]";
     }
 }
 class InheritanceDemo { 
     public static void main(String[] args) {
         
- Manager m1 = new Manager("Rohoan Dixit", 22, "Neuroscience", 23, "Neurotics");
+ Manager m1 = new Manager("Rohan Dixit", 22, "Neuroscience", 23, "Neurotics");
  System.out.println(m1);
     }
 }
