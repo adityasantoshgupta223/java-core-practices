@@ -3,7 +3,8 @@ import java.util.HashMap;
 
 public class HashMapDemo {
    public static void main(String[] args) {
-    
+
+      // Creating HashMap
     HashMap<String, Double> population = new HashMap<>();     // Map of Population of country in Billions 
 
     // Insert  Key-Value Pair  
